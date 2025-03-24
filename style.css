@@ -9,7 +9,9 @@ body {
     background-color: #8a8080;
 }
 .hero {
-    background: url('hero-background.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Beauty_park.jpg');
+    /* background: url('Beauty_park.jpg') no-repeat center center/cover; */
+    background:  cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
